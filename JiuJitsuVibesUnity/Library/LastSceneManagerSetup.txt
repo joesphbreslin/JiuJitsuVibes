@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/WireFrame.unity
+- path: Assets/Scenes/AnimationTest_1.unity
   isLoaded: 1
   isActive: 1

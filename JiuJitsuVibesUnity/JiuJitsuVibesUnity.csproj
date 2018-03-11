@@ -294,7 +294,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ManageWireFrame.cs" />
+    <Compile Include="Assets\Packages\Simple Bones\Demo\Scripts\SBCrossfadeAnimations.cs" />
+    <Compile Include="Assets\Packages\Simple Bones\Demo\Scripts\SBDemoRotate.cs" />
+    <Compile Include="Assets\Packages\Simple Bones\Demo\Scripts\VertexColorToonLight.cs" />
+    <Compile Include="Assets\Packages\Simple Bones\Scripts\SimpleBones.cs" />
+    <Compile Include="Assets\Scripts\Manager.cs" />
+    <Compile Include="Assets\Scripts\ManageWireFrame.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Packages\Simple Bones\Demo\Shaders\Projector Light.shader" />
+    <None Include="Assets\Packages\Simple Bones\Demo\Shaders\VertexColor.shader" />
+    <None Include="Assets\Packages\Simple Bones\Demo\Shaders\VertexColorDiffuse.shader" />
+    <None Include="Assets\Packages\Simple Bones\Demo\Shaders\VertexColorToon.shader" />
+    <None Include="Assets\Packages\Simple Bones\Demo\Shaders\VertexColorToonSimple.shader" />
+    <None Include="Assets\Packages\Simple Bones\Demo\Shaders\VertexColorToonSimpleTransparent.shader" />
+    <None Include="Assets\Packages\Simple Bones\Demo\Shaders\VertexColorToonTransparent.shader" />
+    <None Include="Assets\Packages\Simple Bones\Demo\Shaders\VertexColorTransparent.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

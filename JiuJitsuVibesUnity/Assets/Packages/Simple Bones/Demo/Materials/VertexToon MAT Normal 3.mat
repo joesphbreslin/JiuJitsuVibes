@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: VertexToon MAT Normal 3
+  m_Shader: {fileID: 4800000, guid: fd62276890be2c5418b0786057e38867, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CelRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalsTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _DiffuseThreshold: 0.704
+    - _LightTweakX: 0
+    - _LightTweakY: 0
+    - _LightTweakZ: 0
+    - _LitOutlineThickness: 0.133
+    - _Shininess: 1.08
+    - _UnlitOutlineThickness: 0.355
+    m_Colors:
+    - _Color: {r: 0.6764706, g: 0.61520404, b: 0.58196366, a: 1}
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 1, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 0.58823526, g: 0.47145325, b: 0.47145325, a: 1}
+    - _SpecColor: {r: 0.9411765, g: 0.6435986, b: 0.6435986, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _UnlitColor: {r: 0.5588235, g: 0.5588235, b: 0.5588235, a: 1}
